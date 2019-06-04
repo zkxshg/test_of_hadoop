@@ -27,6 +27,7 @@ sudo mv ~/download/1901.gz ./data
 
 
 # ==================config bashrc==============================================
+sudo nano ~/.bashrc
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export HADOOP_HOME=/usr/local/hadoop
